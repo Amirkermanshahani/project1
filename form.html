@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Information Form</title>
+</head>
+<body>
+<p><strong>Please fill in the form below : </strong></p>
+<br><br>
+<form action = "test.php" method ="post" enctype = "multipart/form-data">
+    Name : <input type = "text" name = "name" placeholder = "Your name goes here">
+    <br><br>
+    Email : <input type = "text" name = "email" placeholder = "example@yahoo.com">
+    <br><br>
+    Phone : <input type = "text" name = "phone" placeholder = "Your phone number goes here">
+    <br><br>
+    Image : <input type = "file" name = "image">
+    <br><br>
+    Gender : <input type = "radio" name = "gender" value = "1">male
+    <input type = "radio" name = "gender" value = "0">female
+    <br><br>
+    Skills : <input type = "checkbox" name = "backend" value = "backend">Backend
+    <input type = "checkbox" name = "frontend" value = "frontend">Frontend
+    <br><br>
+    <input type = "submit" name = "ok" value = "submit">
+
+</form>
+</body>
+</html>
